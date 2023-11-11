@@ -118,7 +118,7 @@ def start_mtc(outport, fps, start_string, duration, click_data=None):
 
 
 @click.command()
-@click.option('--fps', '-f',   default='25', help='frames per second, defaults to 24')
+@click.option('--fps', '-f',   default='25', help='frames per second, defaults to 25')
 @click.option('--start', '-s', default='00:00:00:00',  help='start timecode, defaults to 00:00:00:00')
 @click.option('--duration', '-d',   default='0', help='duration in seconds to run the mtc, defaults to 0 (infinite)')
 @click.option('--metronome/--no_metronome', '-m', default=False, help='turn the metronome on (channel 10)')
