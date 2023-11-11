@@ -1,5 +1,11 @@
 # Timecode tools
 
+## Installation
+
+```bash
+pip install --user -r requirements.txt
+```
+
 Depends on:
 
 * mido - for python midi commands
